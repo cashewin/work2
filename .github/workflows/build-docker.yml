@@ -37,7 +37,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: ./Dockerfile.video-tools
+          file: ./docker/Dockerfile
           push: true
           tags: |
             cashewin/video-tools:latest
